@@ -1,0 +1,18 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+
+# Source code
+[*.{cs,ps1,psd1,psm1}]
+indent_size = 4
+
+# Markdown
+[*.md]
+indent_size = 2
